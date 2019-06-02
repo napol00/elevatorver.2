@@ -40,7 +40,7 @@ class Elevator {
       self.makeAvailableIfPossible();
     }
 
-    setTimeout(function() { self.commander(); }, 1000);
+    setTimeout(function() { self.commander(); }, 200);
   }
 
   move() {
