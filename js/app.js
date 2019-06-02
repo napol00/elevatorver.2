@@ -63,21 +63,21 @@ function updateStatusIndicator(id, status){
 	var elevatorImage = $("#elevator" + id);
 	switch (status) {
 		case Elevator.TAG_GOING_DOWN:
-		statusIndicator.html("&#128078;");
+		statusIndicator.html("&#9660;");
 		break;
 		case Elevator.TAG_GOING_UP:
-		statusIndicator.html("&#128077;");
+		statusIndicator.html("&#9650;");
 		break;
 		case Elevator.TAG_BUSY:
-		elevatorImage.attr("src", "img/open1.jpg");
-		statusIndicator.html("&#128205;");
+		elevatorImage.attr("src", "img/open.jpg");
+		statusIndicator.html("&#9676;");
 		break;
 		case Elevator.TAG_AVAILABLE:
-		elevatorImage.attr("src", "img/close1.jpg");
-		statusIndicator.html("&#9786;");
+		elevatorImage.attr("src", "img/closed.jpg");
+		statusIndicator.html("&#10003;");
 		break;
 		case Elevator.TAG_UNDER_MAINTENANCE:
-		statusIndicator.html("&#9785;");
+		statusIndicator.html("&#9888;");
 		break;
 	}
 }
