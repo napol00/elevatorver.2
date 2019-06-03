@@ -18,8 +18,10 @@ img {
 p {
 	font-size: 35px !important;
 }
-a {
+
+a,a:hover {
 	font-size: 15px !important;
+	color: #fafafa;
 }
 
 .elevator-box {
@@ -46,6 +48,7 @@ table {
 	float: right;
 	background-color: #4CAF50;
     color: white;
+    text-align: center;
     padding: 15px;
     margin: 8px ;
     border: 10px;
