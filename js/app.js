@@ -10,6 +10,7 @@ elevator2.commander();
 elevator3.commander();
 elevator4.commander();
 
+
 function addTarget(elevatorId, floor) {
 	selectElevatorById(elevatorId).addTarget(floor);
 }
