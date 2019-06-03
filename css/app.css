@@ -42,4 +42,42 @@ table {
 }
 
 
+.but1 {
+	float: right;
+	background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 8px ;
+    border: 10px;
+    cursor: pointer;
+    width: 10%;
 
+}
+.but1:hover {
+	opacity: 0.8;
+}
+
+.real {
+	float: left;
+}
+
+
+.col-md-4{
+	padding: 10px 10px 10px 10px;
+
+}
+.bck{
+	float: right;
+	background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 8px ;
+    border: 10px;
+    cursor: pointer;
+    width: 10%;
+
+}
+
+.bck:hover {
+	opacity: 0.8;
+}
